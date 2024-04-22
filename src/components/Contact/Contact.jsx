@@ -6,7 +6,7 @@ import linkedin_icon from "../../assets/linkedin_icon.png"
 const Contact = () => {
   return (
     <section className="contactPage">
-        <div className="contact">
+        <div className="contact" id='contact'>
             <h1 className="contactPageTitle">Contact Me</h1>
             <span className="contactDesc">Please fill out the form below to discuss any work opportunities.</span>
             <form className="contactForm">
@@ -15,9 +15,15 @@ const Contact = () => {
                 <textarea name="message" rows="5" className="msg" placeholder='Your Message'></textarea>
                 <button type='submit' value="send" className="submitBtn">Submit</button>
                 <div className="links">
+                  <a href="https://www.facebook.com/profile.php?id=61557049505525&mibextid=LQQJ4d">
                     <img src={facebook_icon} alt="" className="link" />
+                    </a>
+                    <a href="https://twitter.com/@Delightklenam">
                     <img src={twitter_icon} alt="" className="link" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/klutsey-delight">
                     <img src={linkedin_icon} alt="" className="link" />
+                    </a>
                 </div>
             </form>
         </div>
