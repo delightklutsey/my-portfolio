@@ -15,13 +15,13 @@ const Contact = () => {
                 <textarea name="message" rows="5" className="msg" placeholder='Your Message'></textarea>
                 <button type='submit' value="send" className="submitBtn">Submit</button>
                 <div className="links">
-                  <a href="https://www.facebook.com/profile.php?id=61557049505525&mibextid=LQQJ4d">
+                  <a href="https://www.facebook.com/profile.php?id=61557049505525&mibextid=LQQJ4d" target="blank"> 
                     <img src={facebook_icon} alt="" className="link" />
                     </a>
-                    <a href="https://twitter.com/@Delightklenam">
+                    <a href="https://twitter.com/@Delightklenam" target='blank'>
                     <img src={twitter_icon} alt="" className="link" />
                     </a>
-                    <a href="https://www.linkedin.com/in/klutsey-delight">
+                    <a href="https://www.linkedin.com/in/klutsey-delight" target='blank'>
                     <img src={linkedin_icon} alt="" className="link" />
                     </a>
                 </div>

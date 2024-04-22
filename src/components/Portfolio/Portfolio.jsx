@@ -12,25 +12,25 @@ const Portfolio = () => {
         <h2 className="worktitle">My Portfolio</h2>
         <span className="workdesc">I take pride in paying attention to the smallest details and making sure that my work is pixel perfect. I am excited to bring my skills and experience to help businesses achieve their goals and create a strong online presence. </span>
         <div className="worksImgs">
-          <a href="https://food-app-two-sandy.vercel.app/">
+          <a href="https://food-app-two-sandy.vercel.app/"target='blank'>
             <img src={food} alt="" className="worksImg" />
             </a>
 
-            <a href=" https://delightklutsey.github.io/work1/">
+            <a href=" https://delightklutsey.github.io/work1/" target='blank'>
             <img src={project2} alt="" className="worksImg" />
             </a>
-            <a href=" https://delightklutsey.github.io/Easybank/">
+            <a href=" https://delightklutsey.github.io/Easybank/" target='blank'>
             <img src={project3} alt="" className="worksImg" />
             </a>
 
-            <a href="https://delightklutsey.github.io/Presentation/">
+            <a href="https://delightklutsey.github.io/Presentation/" target='blank'>
             <img src={project4} alt="" className="worksImg" />
             </a>
 
-            <a href=" https://delightklutsey.github.io/Second-Project-jesi/">
+            <a href=" https://delightklutsey.github.io/Second-Project-jesi/" target='blank'>
             <img src={project5} alt="" className="worksImg" />
             </a>
-            <a href="https://delightklutsey.github.io/First-Jesi-project/">
+            <a href="https://delightklutsey.github.io/First-Jesi-project/" target='blank'>
             <img src={project6} alt="" className="worksImg" /> 
             </a>
         </div>
