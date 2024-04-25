@@ -9,7 +9,7 @@
 .bg{
     position: absolute;
     top: 4rem;
-    right: 0;
+    right: 6rem;
     z-index: -1;
     object-fit: cover;
     height: 100vh;
@@ -18,7 +18,7 @@
 .introContent{
     height: 100vh;
     width: 100vw;
-    padding: 2rem;
+    padding: 7rem;
     font-size: 2.5rem;
     font-weight: 700;
     display: flex;
@@ -33,19 +33,24 @@
     color: blue;
 
 }
+.introText{
+    margin-top: 30px;
+}
 .introPara{
     font-size: medium;
     font-weight: 200;
     letter-spacing: 1px;
+    margin-top: 30px;
 }
 .btn{
     background: white;
-    margin: 1rem 0;
+    /* margin: 3rem 1rem; */
     padding: 0.75rem 2rem;
     border: none;
     border-radius: 2rem;
     font-weight: 500;
     width: 8rem;
+    margin-top: 30px;
 }
 
 .btn:hover{
@@ -64,5 +69,99 @@
     }
     .hello{
         font-size: 4.5vw;
+    }
+}
+
+@media (min-width: 1026px) and (max-width: 1440px){
+  #intro{
+    height: 105vh;
+  }
+  .introText{
+    font-weight: 300;
+  }
+  
+    .introContent{
+    padding: 8rem;
+  }
+
+  .bg{
+    padding-right: 2rem;
+    /* width: 20rem; */
+  }
+}
+@media (min-width: 1024px) and (max-width: 1280px){
+    .hello{
+        margin-top: 3rem;
+    }
+   
+    .bg{
+    padding-left: 6rem;
+    margin-top: 20px;
+
+    }
+    #intro{
+        height: 110vh;
+    }
+    .introText{
+        margin-bottom: 8px;
+    }
+    .introPara{
+        margin-top: 10px;
+    }
+    .btn{
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .bg{
+        display: none;
+    }
+
+    .hello{
+        margin-top: 30px;
+        margin-left: 10rem;
+    }
+
+    #intro{
+        height: 115vh;
+        margin-left: 2rem;
+    }
+    
+    .introText{
+        margin-left: 3rem;
+    }
+    .btn{
+        margin-left: 9rem;
+    }
+
+}
+
+@media (min-width: 425px) and (max-width: 767px){
+   #intro{
+    height: 150vh;
+   }
+   
+   .introPara{
+    width: 127%;
+    margin-left: -1rem;
+    font-size: 0.9rem;
+
+   }
+    .bg{
+        display: none;
+    }
+    .hello{
+        margin-top: 10rem;
+        margin-left: 4rem;
+    }
+
+    .introText{
+        margin-left: 2rem;
+        font-weight: 400;
+        font-size: 2rem;
+    }
+    .btn{
+        margin-left: 2rem;
     }
 }

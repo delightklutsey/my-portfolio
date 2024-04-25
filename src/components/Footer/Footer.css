@@ -8,3 +8,14 @@
     font-weight: 300;
     font-size: small;
 }
+@media (min-width: 425px) and (max-width: 767px){
+    .footer{
+        width: 102vw;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .footer{
+        width: 110vw;
+    }
+}

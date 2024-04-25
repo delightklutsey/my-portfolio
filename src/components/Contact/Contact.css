@@ -30,7 +30,12 @@
     width: 90vw;
     max-width: 60rem;
 }
-
+.name, .email{
+    height: 5rem;
+}
+.msg{
+    height: 10rem;
+}
 .name, .email, .msg{
     font-size: medium;
     width: 100%;
@@ -73,3 +78,47 @@
     cursor: pointer;
     border-radius: 50%;
 }
+@media (min-width: 768px) and (max-width: 1023px){
+    .name, .email, .msg{
+        max-width: 35rem;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 767px){
+    .contactPageTitle{
+        font-size: 2rem;
+    }
+
+    .contact{
+        margin-top: -3rem;
+    }
+
+    .contactDesc{
+        font-size: x-small;
+        font-weight: 400;
+    }
+
+    .name, .email{
+        width: 69%;
+        height: 3rem;
+       margin-left: 2.5rem;
+    }
+
+    .msg{
+        width: 69%;
+        height: 5rem;
+       margin-left: 2.5rem;
+    }
+    .submitBtn{
+        margin-left: 3rem;
+    }
+    .links{
+        margin-left: 1rem;
+  }
+   
+  .link{
+    height: 2rem;
+    width: 2rem;
+  }
+  
+    }

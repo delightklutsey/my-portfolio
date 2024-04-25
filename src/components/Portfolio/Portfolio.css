@@ -17,7 +17,7 @@
     font-size: 3rem;
 }
 
-.workDesc{
+.workdesc{
     font-weight: 300;
     font-size: 1rem;
     max-width: 45rem;
@@ -35,7 +35,7 @@
 }
 
 .worksImg{
-    object-fit: cover;
+
     height: 20rem;
     margin: 0.5rem;
    width: 20rem;
@@ -47,3 +47,50 @@
     cursor: pointer;
     box-shadow: 2px solid rgb(40, 40, 40);
 }
+@media (min-width: 1026px) and (max-width: 1440px){
+    .workdesc{
+        max-width: 95%;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px){
+    .worksImg{
+        width: 16rem;
+    }
+
+}
+
+    @media (min-width: 768px) and (max-width: 1023px){
+        .workdesc{
+         max-width: 37rem;
+        }
+
+        .worksImg{
+            width: 32rem;
+        }
+
+        .worksImgs{
+            display: grid;
+        }
+
+        
+    }
+
+    @media (min-width: 425px) and (max-width: 767px){
+        .works{
+            margin-top: -0.5rem;
+        }
+        .worktitle{
+            font-size: 2rem;
+        }
+
+        .workdesc{
+            width: 76%;
+            font-size: 0.9rem;
+        }
+
+        .worksImg{
+            height: 10rem;
+            width: 15rem;
+        }
+    }
